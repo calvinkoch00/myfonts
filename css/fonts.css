@@ -1,7 +1,12 @@
 @font-face {
-    font-family: 'YourFont';
-    src: url('https://cdn.jsdelivr.net/gh/yourusername/font-hosting-repo/fonts/YourFont-Regular.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/yourusername/font-hosting-repo/fonts/YourFont-Bold.woff2') format('woff2');
+    font-family: 'Scary Things';
+    src: url('https://cdn.jsdelivr.net/gh/calvinkoch00/myfonts/fonts/ScaryThings.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/calvinkoch00/myfonts/fonts/ScaryThings.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Apply font globally */
+body {
+    font-family: 'Scary Things', sans-serif;
 }
